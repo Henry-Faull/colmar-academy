@@ -3,111 +3,137 @@
   <head>
     <meta charset="utf-8">
     <title>Colmar Academy</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
   </head>
   <body>
-      <img src="resources/images/ic-logo.svg">
+    <div id="top-bar">
+      <div id="top-title">
+        <img src="resources/images/ic-logo.svg">
+        <p>COLMAR ACADEMY</p>
+      </div>
       <nav>
-        <li>On Campus</li>
-        <li>Online</li>
-        <li>For Companies</li>
-        <li>Sign In</li>
+        <a>On Campus</a>
+        <a>Online</a>
+        <a>For Companies</a>
+        <a>Sign In</a>
       </nav>
+      <img src="resources/images/ic-on-campus.svg" class="small-icon">
+      <img src="resources/images/ic-online.svg" class="small-icon">
+      <img src="resources/images/ic-login.svg" class="small-icon">
+    </div>
 
-      <div id="learn">
-        <img src="resources/images/banner.jpg">
+    <div id="learn">
+      <img src="resources/images/banner.jpg">
+      <div class="aside">
         <h1>Learn something new everyday</h1>
         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-        <h3 class="button">Start here</h3>
+        <p class="button">Start here</p>
       </div>
+    </div>
 
-      <div id="information">
-        <img src="resources/images/information-main.jpg">
-        <h1>It doesn't hurt to keep practicing</h1>
-        <p>"Curaitur vitae libero in ipsum porttitor consequat. Aliquam et
-          commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus
-          sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
-          tristique ligula."</p>
-        <p class="by-line">Emanual, Sr Strategist at Hiring.com</p>
-        <div id="information-list">
-          <img src="resources/images/information-orientation.jpg">
+    <div id="information">
+      <img src="resources/images/information-main.jpg" class="desktop-only">
+      <h1 class="desktop-only">It doesn't hurt to keep practicing</h1>
+      <p class="desktop-only">"Curaitur vitae libero in ipsum porttitor consequat. Aliquam et
+        commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus
+        sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
+        tristique ligula."</p>
+      <p class="by-line desktop-only">Emanual, Sr Strategist at Hiring.com</p>
+      <div id="information-list">
+        <div class="info-item">
+          <img src="resources/images/information-orientation.jpg" class="desktop-only">
+          <img src="resources/images/information-orientation-mobile.jpg" class="mobile-only">
           <h2>Orientation Date</h2>
           <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
           <p class="link">Read more</p>
+        </div>
 
-          <img src="resources/images/information-campus.jpg">
+        <div class="info-item">
+          <img src="resources/images/information-campus.jpg" class="desktop-only">
+          <img src="resources/images/information-campus-mobile.jpg" class="mobile-only">
           <h2>Our Campus</h2>
           <p>Find which campus is close by you</p>
           <p class="link">Read more</p>
+        </div>
 
-          <img src="resources/images/information-guest-lecture.jpg">
+        <div class="info-item">
+          <img src="resources/images/information-guest-lecture.jpg" class="desktop-only">
+          <img src="resources/images/information-guest-lecture-mobile.jpg" class="mobile-only">
           <h2>Our Guest Lecture</h2>
           <p>Join a keynote with Oliver Sack about music in medical treatment</p>
           <p class="link">Read more</p>
         </div>
       </div>
+    </div>
 
-      <div id="start">
-        <h1>Start learning</h1>
-        <div>
-          <img src="resources/images/course-software.jpg">
-          <h2>Software Engineering</h2>
-          <p>COURSES</p>
-          <p>Web Development, Mobile Development, iOT, APIs</p>
-        </div>
-        <div>
-          <img src="resources/images/course-computer-art.jpg">
-          <h2>Computer art</h2>
-          <p>COURSES</p>
-          <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
-        </div>
-        <div>
-          <img src="resources/images/course-design.jpg">
-          <h2>Design</h2>
-          <p>COURSES</p>
-          <p>User Experience Design, User Research, Visual Design</p>
-        </div>
-        <div>
-          <img src="resources/images/course-data.jpg">
-          <h2>Data</h2>
-          <p>COURSES</p>
-          <p>Data Science, Big Data, SQL, Data Visualization</p>
-        </div>
-        <div>
-          <img src="resources/images/course-business.jpg">
-          <h2>Business</h2>
-          <p>COURSES</p>
-          <p>Product Development, Business Development, Startup</p>
-        </div>
-        <div>
-          <img src="resources/images/course-marketing.jpg">
-          <h2>Marketing</h2>
-          <p>COURSES</p>
-          <p>Analytics, Content Marketing, Mobile Marketing</p>
-        </div>
+    <div id="start">
+      <h1>Start learning</h1>
+      <div>
+        <img src="resources/images/course-software.jpg" class="desktop-only">
+        <h2>Software Engineering</h2>
+        <p class="desktop-only">COURSES</p>
+        <p class="desktop-only">Web Development, Mobile Development, iOT, APIs</p>
       </div>
+      <div>
+        <img src="resources/images/course-computer-art.jpg" class="desktop-only">
+        <h2 >Computer art</h2>
+        <p class="desktop-only">COURSES</p>
+        <p class="desktop-only">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+      </div>
+      <div>
+        <img src="resources/images/course-design.jpg" class="desktop-only">
+        <h2>Design</h2>
+        <p class="desktop-only">COURSES</p>
+        <p class="desktop-only">User Experience Design, User Research, Visual Design</p>
+      </div>
+      <div>
+        <img src="resources/images/course-data.jpg" class="desktop-only">
+        <h2>Data</h2>
+        <p class="desktop-only">COURSES</p>
+        <p class="desktop-only">Data Science, Big Data, SQL, Data Visualization</p>
+      </div>
+      <div>
+        <img src="resources/images/course-business.jpg" class="desktop-only">
+        <h2>Business</h2>
+        <p class="desktop-only">COURSES</p>
+        <p class="desktop-only">Product Development, Business Development, Startup</p>
+      </div>
+      <div>
+        <img src="resources/images/course-marketing.jpg" class="desktop-only">
+        <h2>Marketing</h2>
+        <p class="desktop-only">COURSES</p>
+        <p class="desktop-only">Analytics, Content Marketing, Mobile Marketing</p>
+      </div>
+    </div>
 
-      <div id="thesis">
-        <h1>Thesis exhibit</h1>
-        <video src="resources/videos/thesis.mp4" controls>The video could not be loaded :/</video>
-        <h2>Reimagine urban</h2>
-        <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
-          commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus
-          sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
-           tristique ligula."</p>
-        <div id="thesis-list">
+    <div id="thesis">
+      <h1>Thesis exhibit</h1>
+      <video src="resources/videos/thesis.mp4" controls>The video could not be loaded :/</video>
+      <h2 class="desktop-only">Reimagine urban</h2>
+      <p class="desktop-only">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+        commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus
+        sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
+         tristique ligula."</p>
+      <div id="thesis-list" class="desktop-only">
+        <div class="thesis-item">
+          <img src="resources/images/thesis-fisma.jpg" class="desktop-only">
           <h2>Fisma: Design and Prototype</h2>
           <p>Designer showcase of new prototype product</p>
+        </div>
 
+        <div class="thesis-item">
+          <img src="resources/images/thesis-now-and-then.jpg" class="desktop-only">
           <h2>Now and then</h2>
           <p>Research study about New York</p>
-
         </div>
       </div>
+    </div>
 
-      <div id="footer">
-        <p>(c) 2016 Colmar Academy. All rights reserved</p>
-        <p><span>Terms</span><span>Privacy</span></p>
-      </div>
+    <div id="footer">
+      <p>(c) 2016 Colmar Academy. All rights reserved</p>
+      <p class="footer-notes"><span>Terms</span><span>Privacy</span></p>
+    </div>
 
   </body>
 </html>
