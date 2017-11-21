@@ -46,17 +46,27 @@ h3 {
 
 nav {
   float: right;
+  margin-right: 36px;
+}
+
+nav a {
+  margin: auto 8px;
 }
 
 #learn {
   background-color: lightgray;
-  padding: 96px 32px 24px 24px;
+  padding: 96px 24px 32px 24px;
   display: flex;
 }
 
 #learn img {
-  width: 55%;
-  height: 55%;
+  width: 60%;
+  height: 60%;
+}
+
+.section-main {
+  width: 60%;
+  height: 60%;
 }
 
 .aside {
@@ -81,8 +91,25 @@ nav {
   padding: 8px;
 }
 
+#information {
+  margin: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  max-height: 660px;
+  flex-wrap: wrap;
+}
+
+#information h1 {
+  margin: 32px auto 24px auto;
+}
+
+.byline {
+  font-size: 0.8rem;
+  color: #3C4146;
+}
+
 #footer {
-  margin: 16px auto 24px 24px;
+  margin: 16px 32px 24px 24px;
 }
 
 #footer p {
@@ -118,6 +145,9 @@ video {
   }
   .desktop-only {
     display: none;
+  }
+  #learn {
+    display: block;
   }
 
 }
