@@ -10,7 +10,7 @@
     <div id="top-bar">
       <div id="top-title">
         <img src="resources/images/ic-logo.svg">
-        <p>COLMAR <span style="color:dimgray;">ACADEMY</span></p>
+        <p class="desktop-only">COLMAR <span style="color:dimgray;">ACADEMY</span></p>
       </div>
       <nav>
         <a>On Campus</a>
@@ -45,90 +45,105 @@
       </div>
       <div id="information-list">
         <div class="info-item">
-          <img src="resources/images/information-orientation.jpg" class="desktop-only">
           <img src="resources/images/information-orientation-mobile.jpg" class="mobile-only">
-          <h2>Orientation Date</h2>
-          <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-          <p class="link">Read more</p>
+          <img src="resources/images/information-orientation.jpg" class="desktop-only">
+          <div class="info-text">
+            <h2>Orientation Date</h2>
+            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+            <p class="link">Read more</p>
+          </div>
         </div>
 
-        <div class="info-item">
-          <img src="resources/images/information-campus.jpg" class="desktop-only">
+        <div class="info-item" style="background-color:lightgray;">
           <img src="resources/images/information-campus-mobile.jpg" class="mobile-only">
-          <h2>Our Campus</h2>
-          <p>Find which campus is close by you</p>
-          <p class="link">Read more</p>
+          <img src="resources/images/information-campus.jpg" class="desktop-only">
+          <div class="info-text">
+            <h2>Our Campus</h2>
+            <p>Find which campus is close by you</p>
+            <p class="link">Read more</p>
+          </div>
         </div>
 
         <div class="info-item">
-          <img src="resources/images/information-guest-lecture.jpg" class="desktop-only">
           <img src="resources/images/information-guest-lecture-mobile.jpg" class="mobile-only">
-          <h2>Our Guest Lecture</h2>
-          <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-          <p class="link">Read more</p>
+          <img src="resources/images/information-guest-lecture.jpg" class="desktop-only">
+          <div class="info-text">
+            <h2>Our Guest Lecture</h2>
+            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+            <p class="link">Read more</p>
+          </div>
         </div>
       </div>
     </div>
 
     <div id="start">
       <h1>Start learning</h1>
-      <div>
-        <img src="resources/images/course-software.jpg" class="desktop-only">
-        <h2>Software Engineering</h2>
-        <p class="desktop-only">COURSES</p>
-        <p class="desktop-only">Web Development, Mobile Development, iOT, APIs</p>
-      </div>
-      <div>
-        <img src="resources/images/course-computer-art.jpg" class="desktop-only">
-        <h2 >Computer art</h2>
-        <p class="desktop-only">COURSES</p>
-        <p class="desktop-only">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
-      </div>
-      <div>
-        <img src="resources/images/course-design.jpg" class="desktop-only">
-        <h2>Design</h2>
-        <p class="desktop-only">COURSES</p>
-        <p class="desktop-only">User Experience Design, User Research, Visual Design</p>
-      </div>
-      <div>
-        <img src="resources/images/course-data.jpg" class="desktop-only">
-        <h2>Data</h2>
-        <p class="desktop-only">COURSES</p>
-        <p class="desktop-only">Data Science, Big Data, SQL, Data Visualization</p>
-      </div>
-      <div>
-        <img src="resources/images/course-business.jpg" class="desktop-only">
-        <h2>Business</h2>
-        <p class="desktop-only">COURSES</p>
-        <p class="desktop-only">Product Development, Business Development, Startup</p>
-      </div>
-      <div>
-        <img src="resources/images/course-marketing.jpg" class="desktop-only">
-        <h2>Marketing</h2>
-        <p class="desktop-only">COURSES</p>
-        <p class="desktop-only">Analytics, Content Marketing, Mobile Marketing</p>
+      <div id="learning-grid">
+        <div class="learning-box">
+          <img src="resources/images/course-software.jpg" class="desktop-only">
+          <h2>Software Engineering</h2>
+          <p class="desktop-only">COURSES</p>
+          <p class="desktop-only">Web Development, Mobile Development, iOT, APIs</p>
+        </div>
+        <div class="learning-box">
+          <img src="resources/images/course-computer-art.jpg" class="desktop-only">
+          <h2 >Computer art</h2>
+          <p class="desktop-only">COURSES</p>
+          <p class="desktop-only">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+        </div>
+        <div class="learning-box">
+          <img src="resources/images/course-design.jpg" class="desktop-only">
+          <h2>Design</h2>
+          <p class="desktop-only">COURSES</p>
+          <p class="desktop-only">User Experience Design, User Research, Visual Design</p>
+        </div>
+        <div class="learning-box">
+          <img src="resources/images/course-data.jpg" class="desktop-only">
+          <h2>Data</h2>
+          <p class="desktop-only">COURSES</p>
+          <p class="desktop-only">Data Science, Big Data, SQL, Data Visualization</p>
+        </div>
+        <div class="learning-box">
+          <img src="resources/images/course-business.jpg" class="desktop-only">
+          <h2>Business</h2>
+          <p class="desktop-only">COURSES</p>
+          <p class="desktop-only">Product Development, Business Development, Startup</p>
+        </div>
+        <div class="learning-box">
+          <img src="resources/images/course-marketing.jpg" class="desktop-only">
+          <h2>Marketing</h2>
+          <p class="desktop-only">COURSES</p>
+          <p class="desktop-only">Analytics, Content Marketing, Mobile Marketing</p>
+        </div>
       </div>
     </div>
 
     <div id="thesis">
       <h1>Thesis exhibit</h1>
-      <video src="resources/videos/thesis.mp4" controls>The video could not be loaded :/</video>
-      <h2 class="desktop-only">Reimagine urban</h2>
-      <p class="desktop-only">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
-        commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus
-        sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
-         tristique ligula."</p>
-      <div id="thesis-list" class="desktop-only">
-        <div class="thesis-item">
-          <img src="resources/images/thesis-fisma.jpg" class="desktop-only">
-          <h2>Fisma: Design and Prototype</h2>
-          <p>Designer showcase of new prototype product</p>
+      <div id="thesis-section">
+        <div class="section-main">
+          <video src="resources/videos/thesis.mp4" controls>The video could not be loaded :/</video>
+          <h2 class="desktop-only">Reimagine urban</h2>
+          <p class="desktop-only">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+            commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus
+            sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
+            tristique ligula."</p>
         </div>
-
-        <div class="thesis-item">
-          <img src="resources/images/thesis-now-and-then.jpg" class="desktop-only">
-          <h2>Now and then</h2>
-          <p>Research study about New York</p>
+        <div id="thesis-list" class="desktop-only aside" >
+          <div class="thesis-item" style="background-color: lightgray;">
+            <img src="resources/images/thesis-fisma.jpg" class="desktop-only">
+            <div class="thesis-text">
+              <h2>Fisma: Design and Prototype</h2>
+              <p>Designer showcase of new prototype product</p>
+            </div>
+          </div>
+          <div class="thesis-item">
+            <img src="resources/images/thesis-now-and-then.jpg" class="desktop-only">
+            <div class="thesis-text">
+              <h2>Now and then</h2>
+              <p>Research study about New York</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

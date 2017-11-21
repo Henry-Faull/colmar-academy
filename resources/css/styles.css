@@ -3,6 +3,14 @@ html {
   color: #3C4146;
 }
 
+img {
+  width: 50%;
+display: block;
+min-height: 0;
+min-width: 0;
+
+}
+
 body {
   margin: auto 0px auto auto;
 }
@@ -10,6 +18,10 @@ body {
 h1 {
   font-size: 3rem;
   font-weight: bold;
+}
+
+h2 {
+  font-size: 1.75rem;
 }
 
 h3 {
@@ -99,13 +111,133 @@ nav a {
   flex-wrap: wrap;
 }
 
+#information-list {
+  border-left: 1px solid gray;
+}
+
 #information h1 {
   margin: 32px auto 24px auto;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 200px;
+  padding: 16px;
+}
+
+.info-item .desktop-only {
+  width: 35%;
+  height: auto;
+  display: inline;
+
+}
+
+.info-text h2 ,
+.info-text p
+{
+  padding: 4px 0px;
+  word-wrap: normal;
+  max-width: 300px;
 }
 
 .byline {
   font-size: 0.8rem;
   color: #3C4146;
+}
+
+#start {
+  margin: 32px 0px;
+  padding-left: 72px;
+  padding-right: 72px;
+  padding-top: 32px;
+  background-color: lightgray;
+}
+
+#start h1 {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+#learning-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.learning-box {
+  margin: 16px;
+  width: 30%;
+  background-color: white;
+}
+
+.learning-box img {
+  width: 100%;
+}
+
+.learning-box h2 ,
+.learning-box p
+{
+  padding: 8px;
+}
+
+#thesis {
+  margin: 32px 24px;
+}
+
+#thesis-section {
+  display: flex;
+  flex-direction: column;
+  max-height: 660px;
+  flex-wrap: wrap;
+  margin: 32px 12px;
+
+}
+
+#thesis h1 {
+  text-align: center;
+}
+
+#thesis-section h1 {
+  margin-bottom: 12px;
+}
+
+#thesis-section p {
+  margin: 8px;
+}
+
+#thesis-list {
+  text-align: left;
+}
+
+.thesis-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 200px;
+  max-width: 500px;
+  padding: 16px;
+}
+
+.info-item img {
+  width: 35%;
+  height: auto;
+  display: inline;
+
+}
+
+.thesis-text {
+  width: 65%;
+  max-width: 250px;
+}
+
+.thesis-text h2 ,
+.thesis-text p
+{
+  padding: 4px 0px;
+  word-wrap: normal;
+  max-width: 300px;
 }
 
 #footer {
@@ -125,7 +257,8 @@ nav a {
 }
 
 video {
-  max-width: 50%;
+  max-width: 100%;
+  margin-bottom: 24px;
 }
 
 @media only screen and (max-width: 460px) {
@@ -142,12 +275,26 @@ video {
   img
   {
     max-width: 100%;
+    text-align: center;
   }
   .desktop-only {
-    display: none;
+    display: none !important;
   }
   #learn {
     display: block;
+    justify-content: center;
+  }
+
+  #learn img {
+    margin: 0px;
+  }
+
+  .learning-box {
+    width:100%;
+  }
+
+  .learning-box h2 {
+    text-align: center;
   }
 
 }
@@ -157,6 +304,6 @@ video {
     display: none;
   }
   .mobile-only {
-    display: none;
+    display: none !important;
   }
 }
